@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="202dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:background="#5D3A8A"
+        android:gravity="center"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/ok"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/viewPdf"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/imagepdf" />
+
+    <ImageButton
+        android:id="@+id/aparat"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/aparat_ico"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="@+id/viewPdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewPdf"
+        app:layout_constraintTop_toTopOf="@+id/viewPdf" />
+
+    <ImageButton
+        android:id="@+id/latarka"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="282dp"
+        android:background="@drawable/flashlight" />
+
+    <ImageButton
+        android:id="@+id/gps"
+        android:layout_width="153dp"
+        android:layout_height="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/map_icon_new" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Aplikacja Turystyczna"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
